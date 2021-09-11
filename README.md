@@ -1,9 +1,22 @@
-# Yuva Parivartan
+# Yuva Parivartan- NGO
 
 ![](https://img.shields.io/github/license/CybSec-NITW/WeaponHEX)
 ![](https://img.shields.io/pypi/pyversions/django.svg)
 
-Source code of the project
+- Yuva Parivartan mainly focuses on giving a second chance to the  school dropouts and underpriviledged students.
+- Data collected by the YuvaParivartan is spread across different  databases for students, employees, audit scores. 
+- **ISSUE:** The main problem faced is managing data on a single platform and for quick accessibility, decision-making and instant results for availability of data anytime and anywhere.
+- **SOLUTION:** Our platform allows consolidation of data from different sources ( .csv file with the specified fields) and generates a category wise summary for the following categories:    
+	* HR
+	* Impact Support
+	* Audit
+
+- The .csv file made using the specified fields and data inserted will serve as a data blueprint to generate categories and other data points.
+- The Admin site offers role-based authorization that segregates users based on login ID's into Admin that can carry out tasks like manage users.
+- The .csv file(created by the test data) has been presented in form or Bar graphs, Line graphs and scatter plots for easy data visualization. 
+- The reports are generated via different systems and pulled out in the form of excel file using the test data added.
+
+## Source code of the project-
 
 ## Instructions
 
@@ -41,3 +54,45 @@ Enter the details. After successful creation open https://127.0.0.1:8000/admin a
 ```
 
 PS : You can use git GUI clients such as GitKraken or SourceTree to manage your projects.
+
+## Models:
+- **HR:**
+```
+employee_id-charstring
+employee_name-string
+employee_phone-integer
+employee_email-charstring
+manager_id-integer
+doj-date
+employee_status-string
+leaves_applied-integer 
+```
+
+- **Audit:**
+```
+center_id - charstring
+city - string
+student_count - integer
+staff_count - integer
+student_joined - integer
+students_completed - integer
+students_dropped - integer
+rating -integer 
+```
+
+- **For support_team :**
+```
+id - charstring
+name - string
+email - email
+batch_id - integer
+enrolled_course - string
+enrolled_date - date
+attendance - float
+course_status - boolean
+placement_status - boolean
+```
+
+## Implementation
+
+https://drive.google.com/file/d/17UGILCaLmBN1MEbtNulJPfmPudNSZ3go/view?usp=sharing

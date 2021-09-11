@@ -94,5 +94,14 @@ placement_status - boolean
 ```
 
 ## Implementation
+- ![yp1](https://user-images.githubusercontent.com/60674228/132943910-675a4810-fa27-4d61-a958-4cd874ff3978.PNG)
 
+- ![yp2](https://user-images.githubusercontent.com/60674228/132943916-65274b8b-1645-4fdd-bd07-cb4245a5e214.PNG)
+
+- ![yp3](https://user-images.githubusercontent.com/60674228/132943923-e0bd061a-c54c-48f3-906e-2b2c673ee3dd.PNG)
+
+- ![yp4](https://user-images.githubusercontent.com/60674228/132943932-d2ae5d86-0a51-42f9-976c-408dca4248ab.PNG)
+
+
+#### Video link: 
 https://drive.google.com/file/d/17UGILCaLmBN1MEbtNulJPfmPudNSZ3go/view?usp=sharing
